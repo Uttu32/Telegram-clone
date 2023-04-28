@@ -1,6 +1,5 @@
 .mainWrapper{
-    position: absolute;
-    left: 25%;
+
     overflow: hidden;
     overflow: scroll;
     max-height: 100vh;

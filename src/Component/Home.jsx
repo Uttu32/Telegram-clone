@@ -11,15 +11,18 @@ import { useEffect } from 'react';
 import CreateTweet from "../HomeComponent/CreateTweet";
 
 
+
 const Home = () => {
   const [isLoggedIn, setIsLoggedIn] = useRecoilState(isUserLoggedIn)
   const navigate = useNavigate()
+
   useEffect(() => {
     if(isLoggedIn=== false){
     navigate('/signin')
     }
   },[])
   let Right = [
+
       {
         id: 1,
         "Title ": "bibendum",
@@ -44,14 +47,20 @@ const Home = () => {
 
 
   return (
+
     <div className={Styles.mainWrapper}>
     
       
       <div className={Styles.container}>
-      <LeftSideBar/>
-      
+
+
+        <div className={Styles.leftDiv}>
+        <LeftSideBar/>
+      </div>
+      <div className={Styles.centerDiv}>
       <CreateTweet />
-      <MainComponent/>
+          <MainComponent />
+          </div>
       <div className={Styles.RightMain}>
         <h3>What's Happening</h3>
         {Right.map((ele) => (

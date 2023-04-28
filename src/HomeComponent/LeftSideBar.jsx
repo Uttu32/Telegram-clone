@@ -53,7 +53,6 @@ export default function LeftSideBar() {
         <FaTwitter
           sx={{
             fontSize: "2.8rem",
-            
           }}
           className={style.mainIcon}
         />
