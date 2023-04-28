@@ -9,8 +9,9 @@
     /* background-color: black; */
 }
 .sideBarBtnGroup{
-    /* border: 1px solid wheat; */
+    border: 1px solid wheat;
     display: flex;
+    /* margin-top: 50px; */
     flex-direction: column;
     align-items: flex-start;
     padding-right: 2rem;

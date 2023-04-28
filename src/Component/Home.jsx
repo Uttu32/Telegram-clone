@@ -8,7 +8,7 @@ import MainComponent from '../HomeComponent/MainComponent'
 import { isUserLoggedIn } from '../Data/AtomData/Atom'
 import { useNavigate } from "react-router-dom";
 import { useEffect } from 'react';
-import Twittes from "./HomeComponent/Twittes";
+import CreateTweet from "../HomeComponent/CreateTweet";
 
 
 const Home = () => {
@@ -44,19 +44,13 @@ const Home = () => {
 
 
   return (
-
-    <div>
-
-      
-      
-
     <div className={Styles.mainWrapper}>
     
       
       <div className={Styles.container}>
       <LeftSideBar/>
       
-      <Twittes />
+      <CreateTweet />
       <MainComponent/>
       <div className={Styles.RightMain}>
         <h3>What's Happening</h3>

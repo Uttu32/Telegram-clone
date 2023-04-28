@@ -1,12 +1,15 @@
 .RightMain {
   /* border: 1px solid; */
-  width: 23%;
+  width: 17%;
   background-color: whitesmoke;
-  /* margin-left: 70%; */
+  margin-left: 30%;
   border-radius: 3%;
+  height: fit-content;
 }
 
-.RightMain > h3 {
+.RightMain>h3 {
+  padding: 0px;
+  margin: 0px;
   position: relative;
   left: 1rem;
 }
@@ -16,7 +19,7 @@
   text-decoration: none;
   cursor: pointer;
   background-color: inherit;
-  color: #93C5FD;
+  color: #93c5fd;
   position: relative;
   left: 1rem;
 }
