@@ -3,8 +3,9 @@
     display: flex;
     width: 95%;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-end;
     height: 2rem;
+    margin-bottom: 0px;
 }
 
 .Upper > button{
@@ -32,9 +33,21 @@
     border: 1px solid;
 }
 
+.Content{
+    /* border: 1px solid green; */
+    margin-top: 0px;
+
+}
+
 .Content:nth-child(1){
     font-size: large;
     text-transform: capitalize;
     font-weight: bolder;
     font-size: x-large;
+}
+
+.RightMain>.Upper{
+    padding: 0px;
+    margin: 0;
+
 }

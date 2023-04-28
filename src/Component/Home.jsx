@@ -8,7 +8,8 @@ import MainComponent from '../HomeComponent/MainComponent'
 import { isUserLoggedIn } from '../Data/AtomData/Atom'
 import { useNavigate } from "react-router-dom";
 import { useEffect } from 'react';
-import CreateTweet from '../HomeComponent/CreateTweet'
+import CreateTweet from "../HomeComponent/CreateTweet";
+
 
 
 const Home = () => {
@@ -47,15 +48,11 @@ const Home = () => {
 
   return (
 
-
-
-      
-      
-
     <div className={Styles.mainWrapper}>
     
       
       <div className={Styles.container}>
+
 
         <div className={Styles.leftDiv}>
         <LeftSideBar/>
